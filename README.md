@@ -29,6 +29,7 @@ En este ejemplo, nos enfocamos hasta la construcción del paquete.
 - `main.py`: Código fuente con funciones básicas (suma y multiplicación).
 - `test_main.py`: Pruebas unitarias usando `unittest`.
 - `setup.py`: Configuración para construir el paquete.
+- `requirements.txt`: Dependencias necesarias para construcción.
 - `.github/workflows/ci.yml`: Workflow de GitHub Actions para CI/CD.
 
 ## Ejemplo Práctico
@@ -67,9 +68,9 @@ class TestMain(unittest.TestCase):
    cd ci-cd-python-example
    ```
 
-2. Instala dependencias (si hay):
+2. Instala dependencias:
    ```bash
-   pip install -r requirements.txt  # Si existe
+   pip install -r requirements.txt
    ```
 
 3. Ejecuta pruebas:
