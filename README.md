@@ -64,8 +64,8 @@ class TestMain(unittest.TestCase):
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/ci-cd-python-example.git
-   cd ci-cd-python-example
+   git clone https://github.com/pamepogo/ci-cd-ejemplo.git
+   cd ci-cd-ejemplo
    ```
 
 2. Instala dependencias:
